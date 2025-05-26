@@ -147,15 +147,4 @@ python sparse_evaluation.py --load_path <path-to-model-dir> --lam <lambda-value>
 
 - Grounding DINO: <https://github.com/IDEA-Research/GroundingDINO>
 
-## Cite this work
 
-If you find this work useful, please consider citing:
-
-```
-@inproceedings{srivastava2024vlg,
-        title={VLG-CBM: Training Concept Bottleneck Models with Vision-Language Guidance},
-        author={Srivastava, Divyansh and Yan, Ge and Weng, Tsui-Wei},
-        journal={NeurIPS},
-        year={2024}
-}
-```
