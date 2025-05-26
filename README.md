@@ -1,7 +1,7 @@
 <!-- omit in toc -->
-# Vision-Language-Guided Concept Bottleneck Model (VLG-CBM)
+# Result Replication of Vision-Language-Guided Concept Bottleneck Model (VLG-CBM) (Nerulips 2024)
 
-**This is the replicate repo for the paper _VLG-CBM: Training Concept Bottleneck Models with Vision-Language Guidance_, NeurIPS 2024.** [[Project Website]](https://lilywenglab.github.io/VLG-CBM/) [[Paper]](https://arxiv.org/pdf/2408.01432)
+**This is the repository reproducing the paper _VLG-CBM: Training Concept Bottleneck Models with Vision-Language Guidance_, NeurIPS 2024.** [[Original Paper]](https://arxiv.org/pdf/2408.01432) [[Original Repository]](https://github.com/Trustworthy-ML-Lab/VLG-CBM)
 
 - **VLG-CBM** provides a novel method to train Concept Bottleneck Models(CBMs) with guidance from both vision and language domain.
 - **VLG-CBM** provides concise and accurate concept attribution for the decision made by the model. The following figure compares decision explanation of VLG-CBM with existing methods by listing top-five contributions for their decisions.
