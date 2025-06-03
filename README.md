@@ -3,6 +3,8 @@
 
 **This is the repository reproducing the paper _VLG-CBM: Training Concept Bottleneck Models with Vision-Language Guidance_, NeurIPS 2024.** [[Original Paper]](https://arxiv.org/pdf/2408.01432) [[Original Repository]](https://github.com/Trustworthy-ML-Lab/VLG-CBM)
 
+**Our Medium article: [Medium Article](https://medium.com/@q7zheng/46c4145c612f)**
+
 - **VLG-CBM** provides a novel method to train Concept Bottleneck Models(CBMs) with guidance from both vision and language domain.
 - **VLG-CBM** provides concise and accurate concept attribution for the decision made by the model. The following figure compares decision explanation of VLG-CBM with existing methods by listing top-five contributions for their decisions.
 
@@ -102,6 +104,9 @@ Number of Effective Concepts (NEC) needs to be controlled to enable a fair compa
 python sparse_evaluation.py --load_path <path-to-model-dir> --lam <lambda-value>
 ```
 
+### Scripts for replication
+Run the scripts here [Scripts](/replication_scripts.md) for reproducing some of the result in this paper. 
+
 ## Results
 
 **Accuracy at NEC=5 (ANEC-5) for non-CLIP backbone models**
@@ -129,9 +134,18 @@ python sparse_evaluation.py --load_path <path-to-model-dir> --lam <lambda-value>
 <p align="center">
   <img src="assets/visualization.png" width="70%" alt="Visualization of activated images">
 </p>
-<!-- <p align="center">
-  <em>Figure 4: Visualization of Top-5 activated images of randomly selected neurons with VLG-CBM on the CUB dataset. VLG-CBM faithfully captures concepts that are aligned with human perception.</em>
-</p> -->
+
+## Result Replication
+
+To replicate our results, we ran the following experiments:
+
+### ANEC-5 and ANEC-avg across CIFAR-10, CIFAR-100, and CUB
+
+![Result Replication](assets/replication_1.png)
+
+### Weight Prunning
+
+![Result Replication](assets/replication_2.png)
 
 ## Sources
 
