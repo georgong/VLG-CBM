@@ -4,9 +4,9 @@ import os # For path joining if using torchvision example
 
 # --- Configuration --- 
 # !!! USER ACTION REQUIRED: Update these paths !!!
-CHECKPOINT_PATH = "path/to/your/vlg_cbm_cub_checkpoint.pth" # e.g., saved_models/vlg_cbm_cub_nec5/best_model.pth
+CHECKPOINT_PATH = "checkpoints/vlg_cbm_cub_pruning.pth" # e.g., saved_models/vlg_cbm_cub_nec5/best_model.pth
 # CONFIG_PATH = "path/to/your/configs/cub.json" # May be needed for model loading by VLG-CBM's utilities
-CUB_DATASET_ROOT = "path/to/your/datasets/CUB_200_2011" # This should point to the root of the CUB dataset folder
+CUB_DATASET_ROOT = "dataset/cub" # This should point to the root of the CUB dataset folder
 # !!! END USER ACTION REQUIRED !!!
 
 BATCH_SIZE = 32 # Or as per original evaluation settings in VLG-CBM
